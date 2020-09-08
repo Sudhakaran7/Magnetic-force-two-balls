@@ -1,0 +1,58 @@
+In universe Earth C-137, Rick discovered a special form of magnetic force between two balls if they are put in his new invented basket. 
+Rick has n empty baskets, the ith basket is at position[i], Morty has m balls and needs to distribute the balls into the baskets such 
+that the minimum magnetic force between any two balls is maximum.
+Rick stated that magnetic force between two different balls at positions x and y is |x - y|.
+Given the integer array position and the integer m. Return the required force.
+
+Input Description:
+First line contains, N and M as integers as input.(1<N,M<100)
+Second line contains, N size of array with integers as input.
+
+Output Description:
+Print the required force.
+
+Sample Input:
+5 3
+1 2 3 4 7
+
+Sample Output:
+3
+
+Explanation:
+Distributing the 3 balls into baskets 1, 4 and 7 will make the magnetic force between ball pairs [3, 3, 6]. The minimum magnetic force is 3. 
+We cannot achieve a larger minimum magnetic force than 3.
+
+Sample Input:
+4 2
+6 8 2 4
+
+Sample Output:
+6
+
+Sample Input:
+6 3
+2 4 12 6 8 15
+
+Sample Output:
+6
+
+Sample Input:
+7 2
+1 2 4 6 9 12 3
+
+Sample Output:
+11
+
+Sample Input:
+3 2
+87 34 66
+
+Sample Output:
+53
+
+Sample Input:
+5 5
+1 2 3 4 5
+
+Sample Output:
+1
